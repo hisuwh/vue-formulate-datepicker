@@ -1,5 +1,5 @@
 <template>
-  <datepicker
+  <Datepicker
     :class="`formulate-input-element formulate-input-element--${context.type}`"
     :data-type="context.type"
     v-model="context.model"
@@ -11,7 +11,7 @@
 
 <script>
 import Datepicker from "@sum.cumo/vue-datepicker";
-import * as lang from "vuejs-datepicker/src/locale";
+import * as lang from "@sum.cumo/vue-datepicker/dist/locale/index.esm";
 import "@sum.cumo/vue-datepicker/dist/Datepicker.css";
 
 export default {
