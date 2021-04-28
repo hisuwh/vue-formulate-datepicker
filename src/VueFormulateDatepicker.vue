@@ -12,7 +12,6 @@
 <script>
 import Datepicker from "@sum.cumo/vue-datepicker";
 import * as lang from "@sum.cumo/vue-datepicker/dist/locale/index.esm";
-import "@sum.cumo/vue-datepicker/dist/Datepicker.css";
 
 export default {
   name: "VueFormulateDatapicker",
