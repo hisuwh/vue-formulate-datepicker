@@ -1,4 +1,5 @@
 # vue-formulate-datepicker
+[![vue-formulate-datepicker](https://badgen.net/npm/v/vue-formulate-datepicker?color=blue)](https://www.npmjs.com/package/vue-formulate-datepicker)
 
 ## Installation
 npm 
@@ -45,3 +46,4 @@ export default {
 </script>
 
 ```
+##[Documentation](https://github.com/sumcumo/vue-datepicker)
