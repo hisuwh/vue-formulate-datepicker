@@ -7,7 +7,7 @@ export default function VueFormulateDatepickerPlugin(formulateInstance) {
     },
     library: {
       datepicker: {
-        classification: "datepicker",
+        classification: "date",
         component: "VueFormulateDatepicker",
       },
     },
