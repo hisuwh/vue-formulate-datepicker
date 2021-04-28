@@ -1,7 +1,7 @@
 {
   "name": "vue-formulate-datepicker",
   "description": "Wrapper for using vuejs-datepicker in vue-formulate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "homepage": "https://github.com/cogor/vue-formulate-datepicker/#readme",
   "bugs": {
@@ -22,9 +22,9 @@
     "postbuild": "rm dist/demo.html"
   },
   "dependencies": {
+    "@sum.cumo/vue-datepicker": "^3.1.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vuejs-datepicker": "1.6.2"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.12",

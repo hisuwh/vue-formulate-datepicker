@@ -10,8 +10,9 @@
 </template>
 
 <script>
-import Datepicker from "vuejs-datepicker";
+import Datepicker from "@sum.cumo/vue-datepicker";
 import * as lang from "vuejs-datepicker/src/locale";
+import "@sum.cumo/vue-datepicker/dist/Datepicker.css";
 
 export default {
   name: "VueFormulateDatapicker",
