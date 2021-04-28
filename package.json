@@ -1,0 +1,44 @@
+{
+  "name": "vue-formulate-datepicker",
+  "description": "Wrapper for using vuejs-datepicker in vue-formulate",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "https://github.com/cogor/vue-formulate-datepicker/#readme",
+  "bugs": {
+    "url": "https://github.com/cogor/vue-formulate-datepicker/issues"
+  },
+  "author": "Ilya Artamonov <hire@ilya-artamonov.ru> (https://ilya-artamonov.ru/)",
+  "license": "LGPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cogor/vue-formulate-datepicker.git"
+  },
+  "main": "./dist/VueFormulateDatepicker.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name VueFormulateDatepicker src/main.js",
+    "lint": "vue-cli-service lint",
+    "prebuild": "rm -rf dist/",
+    "postbuild": "rm dist/demo.html"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vuejs-datepicker": "1.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "@vue/cli-plugin-eslint": "4.5.12",
+    "@vue/cli-service": "4.5.12",
+    "@vue/eslint-config-prettier": "6.0.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "6.8.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-vue": "6.2.2",
+    "prettier": "2.2.1",
+    "vue-template-compiler": "2.6.12"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
