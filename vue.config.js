@@ -5,7 +5,7 @@ module.exports = {
       libraryTarget: "umd",
     },
     externals: {
-      "v-calendar": "commonjs2 v-calendar",
+      "v-calendar": "commonjs2 @sum.cumo/vue-datepicker",
     },
     mode: "production",
   },
