@@ -22,7 +22,7 @@ Vue.use(VueFormulate, {
 });
 ```
 
-```
+```vue
 <template>
     <FormulateInput
           language="fr"
@@ -46,4 +46,4 @@ export default {
 </script>
 
 ```
-##[Documentation](https://github.com/sumcumo/vue-datepicker)
+[Documentation](https://github.com/sumcumo/vue-datepicker)
