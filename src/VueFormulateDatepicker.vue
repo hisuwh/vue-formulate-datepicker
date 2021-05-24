@@ -1,6 +1,7 @@
 <template>
   <Datepicker
     :class="`formulate-input-element formulate-input-element--${context.type}`"
+    :input-class="context.attributes.class"
     :data-type="context.type"
     v-model="date"
     :options="context.options"
